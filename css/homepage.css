@@ -1,0 +1,592 @@
+/* ---------------HomePage Content--------------- */
+
+/* Content Slider */
+
+.content-slide {
+    height: 100%;
+    margin-left: 200px;
+    position: relative;
+}
+
+/* Introduction Slide */
+
+#introduction-container {
+    background-image: url(../images/lights-blurred_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#introduction-grey-layer {
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-color: rgba(51, 51, 51, 0.5);
+    width: 100%;
+    height: 100%;
+}
+
+#introduction-content {
+    margin: auto;
+    height: 400px;
+    position: absolute;
+    width: 600px;
+    top: 0; left: 0; bottom: 0; right: 0;
+    text-align: center;
+}
+
+#profile-circle {
+    height: 150px;
+    width: 150px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    background-image: url(../images/logo-small.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+
+
+
+
+#location  {
+    background-image: url(https://cdn1.iconfinder.com/data/icons/mimiGlyphs/16/marker_position.png); /* ÄNDRA */
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 20px;
+    margin-top: 10px;
+    float: left;
+    margin-right: 10px;
+}
+
+#mail  {
+    background-image: url(https://cdn2.iconfinder.com/data/icons/flat-ui-icons-24-px/24/mail-24-16.png); /* ÄNDRA */
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 20px;
+    margin-top: 10px;
+    float: left;
+    margin-right: 10px;
+}
+
+#phone  {
+    background-image: url(https://cdn1.iconfinder.com/data/icons/mimiGlyphs/16/phone_iphone.png); /* ÄNDRA */
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 20px;
+    margin-top: 10px;
+    float: left;
+}
+
+/* Portfolio Slide NEWWW*/
+
+#portfolio {
+    background-color: #333;
+    margin-left: 200px;
+    height: 100%;
+    position: relative;
+}
+
+
+.portfolio-object {
+    width: 100%;
+    height: 100%;
+    background-color: #222;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden; /* Fixar kanterna */
+    text-align: center;
+}
+
+table {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+}
+
+td {
+    width: 33%;
+    padding: 5px;
+}
+
+tr {
+    height: 50%;
+}
+
+
+#portfolio-container-BellmanSundin {
+    background-image: url("../images/bellmanSundin-welcome.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0; left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 99;
+    -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+
+#portfolio-container-BellmanSundin:hover {
+    width: 110%;
+    height: 110%;
+}
+
+#portfolio-container-wextr {
+    background-image: url("../images/playfull.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0; left: 0;
+    height: 110%;
+    width: 110%;
+    z-index: 99;
+     -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+
+#portfolio-container-wextr:hover {
+    height: 100%;
+    width: 100%;
+}
+
+#portfolio-container-kmx-care {
+    background-image: url("../images/kmx-care.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0; left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 99;
+    -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+
+#portfolio-container-kmx-care:hover {
+    height: 110%;
+    width: 110%;
+}
+
+#portfolio-container-amazive-magazines {
+    background-image: url(../images/Final%20Killergame%20Large.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0; left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+#portfolio-container-amazive-magazines:-webkit-full-screen {
+    background-size: contain;
+    background-color: #222;
+    background-position: 50% 50%;
+    border: 20px solid #222;
+}
+
+#portfolio-container-amazive-magazines:-moz-full-screen {
+    background-size: contain;
+    background-color: #222;
+    background-position: 50% 50%;
+    border: 20px solid #222;
+}
+
+#portfolio-container-avameeting {
+    background-image: url(../images/%C3%85rsm%C3%B6te%20POSTER%20v5.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0; left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+#portfolio-container-avameeting:-webkit-full-screen {
+    background-size: contain;
+    background-color: #222;
+    background-position: 50% 50%;
+    border: 20px solid #222;
+}
+
+#portfolio-container-avameeting:-moz-full-screen {
+    background-size: contain;
+    background-color: #222;
+    background-position: 50% 50%;
+    border: 20px solid #222;
+}
+
+.portfolio-container-layer {
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(51, 51, 51, 0.7);
+    z-index: 100;
+    pointer-events:none;
+}
+
+.portfolio-description {
+    text-align: center;
+}
+
+.portfolio-buttom {
+    width: 200px;
+    padding-top: 10px; padding-bottom: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: #ccc;
+    font-size: 20px;
+    margin: 0px auto;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 21px;
+}
+
+.portfolio-buttom:hover {
+    background-color: #D34836;
+    border: 1px solid #D34836;
+    color: #fff;
+    border-radius: 21px;
+}
+
+
+.portfolio-buttom-coming-soon {
+    width: 200px;
+    padding-top: 10px; padding-bottom: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: #ccc;
+    font-size: 20px;
+    margin: 0px auto;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 21px;
+    background-color: transparent;
+}
+
+.portfolio-buttom-coming-soon:hover {
+    background-color: #0088cc;
+    border: 1px solid #0088cc;
+    color: #fff;
+    border-radius: 21px;
+}
+
+
+/* About*/
+
+#about-divider-header {
+    background-color: #333;
+    padding: 5px;
+    text-align: center;
+    margin-left: 200px;
+}
+
+#about-header-flashy {
+    background-image: url(../images/lights-blurred_bg.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    float: left;
+    margin-bottom: 20px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+#about-us-flashy {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 100px;
+    color: #d34836;
+    border: 10px solid #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    padding-left: 10px; padding-right: 10px;
+}
+
+#about-layer {
+    background: rgba(51,51,51, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#about {
+    width: 100%;
+    background-color: #e5e5e5;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    min-height: 500px;
+    overflow: hidden;
+    padding-left: 200px;
+    color: #fff;
+    
+}
+
+#pp-container {
+    float: right;
+    width: 30%;
+    padding-left: 20px;
+    border-left: 1px solid #ccc;
+}
+
+.pp-box {
+    width: 100%; 
+    float: left; 
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.profile-circle {
+    border: 5px solid #333;
+    height: 225px;
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 10px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 5px;
+
+}
+
+#profile-circle-fredrik {
+    background-image: url(../images/fredrik.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0; left: 0;
+}
+
+#profile-circle-johannes {
+    background-image: url(../images/johannes.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0; left: 0;
+}
+
+#profile-circle-jonathan {
+    background-image: url(../images/Jonteman_Frankrike_svartvit.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0; left: 0;
+}
+
+/* Services Slide */
+
+#services {
+    background-color: #1e1e1e;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    height: 100%;
+    margin-left: 200px;
+}
+
+.services-layer {
+    background: rgba(51,51,51, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#service-boxes-center-container {
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    height: 400px;
+    width: 960px;
+}
+
+.services-boxes-homepage {
+	height: 300px;
+	width: 285px;
+	margin: 10px;
+	float: left;
+	text-align:center;
+	padding: 20px;
+	background-color: #fdfdfd;
+	-webkit-transition: .3s ease;
+        -moz-transition: .3s ease;
+        -o-transition: .3s ease;
+        -ms-transition: .3s ease;
+        transition: .3s ease;
+	border-radius: 5px;
+}
+
+#first-service-box {
+    margin-left: 30px;
+}
+
+.services-boxes-homepage:hover {
+    background-color: #ccc;
+}
+
+/* Quote */
+
+#quote {
+    background-color: #eee;
+    margin-left: 200px;
+    padding: 100px 0px 100px 0px;
+    position: relative;
+    text-align: center;
+}
+
+#quote .quote {
+    display: none;
+}
+
+/* Blog short */
+
+#blog-container {
+    background-image: url(../images/coast.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+    margin-left: 200px;
+    height: 300px;
+    position: relative;
+}
+
+
+/* Careers short */
+
+#careers {
+    background-image: url(http://2012.brightondigitalfestival.co.uk/wp-content/uploads/2012/07/Coding-DoJo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 200px;
+    height: 300px;
+    position: relative;
+}
+
+
+
+/* Contact Slide */
+
+#contact {
+    background-image: url(../images/map.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 200px;
+    height: 100%;
+    position: relative;
+}
+
+.contact-layer {
+    background: rgba(30,30,30, 0.9);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#contact-centerering {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+
+
+
+
+/* CONTACT FORM */
+
+form.contact {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+    font-family: 'Open Sans', sans-serif;
+    color: #696969;
+    font-size: 20px;
+    background-color: #e5e5e5;
+}
+
+
+
+textarea {
+    width: 100%;
+    max-width: 100%;
+    height: 300px;
+    max-height: 300px;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+    font-family: 'Open Sans', sans-serif;
+    color: #696969;
+    font-size: 20px;
+    background-color: #e5e5e5;
+}
+
+#submit {
+    padding: 10px; 
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+    float: right;
+    margin-top: 10px;
+    width: 100px;
+    text-align: center;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+#submit:hover {
+    background-color: #D34836;
+    -webkit-transition: .3s ease;
+    -moz-transition: .3s ease;
+    -o-transition: .3s ease;
+    -ms-transition: .3s ease;
+    transition: .3s ease;
+}

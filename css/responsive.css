@@ -1,0 +1,179 @@
+@media screen and (max-width: 1200px) {
+    #leftMenu-container {
+        display: none;
+    }
+ 
+    .wrap {
+        width: 100%;
+    }
+    
+    #introduction-content {
+        margin: auto;
+        height: 400px;
+        position: absolute;
+        width: 80%;
+        top: 0; left: 0; bottom: 0; right: 0;
+        text-align: center;
+    }
+    
+    .content-slide, #contact-container {
+        margin-left: 0;
+    }
+    
+    #social-divider {
+        padding: 0px;
+        text-align: center;
+        margin-left: 0px;
+    }
+    
+    /* PORTFOLIO */
+    
+    #portfolio-container {
+        margin-left: 0px;
+    }
+    
+    
+     /* BLOG */
+    
+    #blog-container {
+        margin-left: 0px;
+    }
+    
+    #careers {
+        margin-left: 0px;
+    }
+    
+    
+    #services {
+        margin-left: 0px;
+    }
+    
+    /* ABOUT */
+    
+    #about-divider-header {
+        margin-left: 0px;
+    }
+    
+    #about {
+        padding: 100px 50px 100px 50px;
+    }
+
+    
+    #quote-container {
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .wrap {
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 100%;
+    }
+    
+    #about {
+        padding: 10px;
+        padding-bottom: 20px;
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    
+    #services-container {
+        background-color: #1e1e1e;
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: relative;
+        margin-left: 0px;
+        height: 1100px;
+    }
+    
+    #service-boxes-center-container {
+        padding: 20px 10px 20px 10px;
+        margin: auto;
+        position: relative;
+        top: 0; left: 0; bottom: 0; right: 0;
+        height: 300px;
+        width: 100%;;
+    }
+
+    .services-boxes-homepage {
+        height: 300px;
+        width: 100%;
+        margin: 0px;
+        margin: 5px 0px 5px 0px;
+        float: left;
+        text-align:center;
+        padding: 20px;
+        background-color: #fdfdfd;
+        -webkit-transition: .3s ease;
+            -moz-transition: .3s ease;
+            -o-transition: .3s ease;
+            -ms-transition: .3s ease;
+            transition: .3s ease;
+        border-radius: 5px;
+    }
+
+    #first-service-box {
+        margin-left: 0px;
+    }
+
+    .services-boxes-homepage:hover {
+        background-color: #ccc;
+    }
+    
+    
+    #portfolio {
+        display: none !important;
+    }
+    
+    
+    #portfolio-container-resp {
+        display: block !important;
+        padding: 10px;
+        background-color: #333;
+    }
+
+
+    .portfolio-object {
+        width: 100%;
+        height: 300px;
+        background-color: #222;
+        border-radius: 10px;
+        position: relative;
+        overflow: hidden; /* Fixar kanterna */
+        text-align: center;
+        margin: 10px 0px 10px 0px;
+    }
+    
+    #contact {
+        padding: 50px 10px 50px 10px;;
+        height: 1050px;
+    }
+    
+    #pp-container {
+        width: 100%;
+    }
+    
+    .pp-box {
+        width: 100%;
+    }
+    
+    #contact-centerering {
+        position: relative;
+        top: 0; left: 0; bottom: 0; right: 0;
+        height: 100px;
+        margin: auto;
+        text-align: center;
+    }
+    
+    .profile-circle {
+        height: 300px;
+    }
+    
+    #profile-circle-johannes {
+  
+    }
+    
+    
+}

@@ -1,0 +1,361 @@
+/* ---------------Resets--------------- */
+
+* {
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+body, html {
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+buton {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+
+/* ---------------Global--------------- */
+
+body {
+    background-color: #fdfdfd;
+}
+
+.wrap {
+    width: 960px;
+    position: relative;
+    margin: 0 auto;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+}
+
+h1.portfolio-description-company {
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    font-size: 30px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+p.portfolio-description-about {
+    font-family: 'Open Sans', sans-serif;
+    color: #ccc;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+p.about-text {
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+    font-size: 16px;
+}
+
+h1.red,h2.red,h3.red,h4.red,h5.red,h6.red {
+    font-family: 'Open Sans', sans-serif;
+    color: #D34836;
+    font-weight: bold;
+}
+
+
+h1.light,h2.light,h3.light,h4.light,h5.light,h6.light {
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+}
+
+h4.logo{
+    font-family: 'Open Sans', sans-serif;
+    color: #ccc;
+    text-align: center;
+}
+
+h6.logo {
+    font-family: 'Open Sans', sans-serif;
+    color: #696969;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+h1.welcome{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 60px;
+    color: #e5e5e5;
+}
+
+h3.sub-welcome, h5.sub-welcome{
+    font-family: 'Open Sans', sans-serif;
+    color: #e5e5e5;
+}
+
+h5.sub-welcome:hover{
+    font-family: 'Open Sans', sans-serif;
+    color: #D34836;
+}
+
+h1.contact {
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    font-size: 70px;
+    text-align: center;
+}
+
+h3.contact-email {
+    font-family: 'Open Sans', sans-serif;
+    color: #e5e5e5;
+    font-size: 16px;
+    text-align: center;
+}
+
+h3.contact-phone {
+    font-family: 'Open Sans', sans-serif;
+    color: #e5e5e5;
+    font-size: 14px;
+    text-align: center;
+}
+
+h3.contact-adress {
+    font-family: 'Open Sans', sans-serif;
+    color: #e5e5e5;
+    font-size: 14px;
+    text-align: center;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+    font-size: 16px;
+}
+
+p.sub-welcome {
+    font-family: 'Open Sans', sans-serif;
+    color: #e5e5e5;
+    font-size: 16px;
+    -webkit-transition: .3s ease;
+    -moz-transition: .3s ease;
+    -o-transition: .3s ease;
+    -ms-transition: .3s ease;
+    transition: .3s ease;
+}
+
+p.sub-welcome:hover {
+    color: #fff;
+    
+}
+
+/* ---------------General Layout--------------- */
+
+
+/* LeftMenu */
+
+#leftMenu-container {
+    width: 200px;
+    background-color: #222;
+    height: 100%;
+    float: left;
+    position: fixed;
+    padding: 10px;
+}
+
+#logo {
+    height: 50px;
+    width: 50px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    background-image: url(../images/logo-small.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+
+ul.leftMenu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+li {
+    float: left;
+    width: 100%;
+    padding: 20px;
+    border-top: 1px solid #333;
+    font-weight: bold;
+    line-height:1.618em;
+    font-size: 20px;
+    font-family:LatoRegular, Verdana, sans-serif;
+    -webkit-transition: .3s ease;
+    -moz-transition: .3s ease;
+    -o-transition: .3s ease;
+    -ms-transition: .3s ease;
+    transition: .3s ease;
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 40px;
+    color: #696969;
+}
+
+.active li {
+    color: #d34836;
+}
+
+
+li#about-icon {
+    background-image: url(https://cdn3.iconfinder.com/data/icons/linecons-free-vector-icons-pack/32/bulb-32.png);
+}
+
+li#portfolio-icon {
+    background-image: url(https://cdn3.iconfinder.com/data/icons/linecons-free-vector-icons-pack/32/news-24.png);
+}
+
+li#services-icon {
+    background-image: url(https://cdn3.iconfinder.com/data/icons/linecons-free-vector-icons-pack/32/display-24.png);
+}
+
+li#contact-icon {
+    background-image: url(https://cdn3.iconfinder.com/data/icons/linecons-free-vector-icons-pack/32/bubble-32.png);
+    border-bottom: 1px solid #333;
+}
+
+li#blog-icon {
+    background-image: url(https://cdn3.iconfinder.com/data/icons/linecons-free-vector-icons-pack/32/news-24.png);
+    border-bottom: 1px solid #333;
+}
+
+li#about-icon:hover{
+    color: #D34836;
+}
+
+li#portfolio-icon:hover {
+    color: #D34836;
+}
+
+li#services-icon:hover {
+    color: #D34836;
+}
+
+li#contact-icon:hover {
+    color: #D34836;
+}
+
+li#blog-icon:hover {
+    color: #D34836;
+}
+
+
+
+#copyright-info {
+    position: absolute;
+    bottom: 10px;
+    left: 15px;
+    font-family: 'Open Sans', sans-serif;
+    color: #444;
+    font-size: 12px;
+    border-top: 1px solid #333;
+    padding-top: 10px;
+    width: 170px;
+    -webkit-transition: .3s ease;
+    -moz-transition: .3s ease;
+    -o-transition: .3s ease;
+    -ms-transition: .3s ease;
+    transition: .3s ease;
+    text-align: center;
+}
+
+#copyright-info:hover {
+    color: #fff;
+}
+
+.divider {
+	height: 2px; 
+	background-color: #cccccc; 
+	text-align: center;
+	width: 100%;
+	margin-bottom: 40px;
+	margin-top: 40px;
+}
+
+.divider span {
+	background-color: #e5e5e5; 
+	position: relative; 
+	top: -0.5em;
+	text-transform: uppercase;
+	color: #555;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 24px;  
+	font-family: 'Myriad-Pro', 'Myriad', helvetica, arial, sans-serif; 
+}
+
+
+.divider-2 {
+	height: 2px; 
+	background-color: #D34836; 
+	text-align: center;
+	width: 100%;
+	margin-bottom: 40px;
+	margin-top: 40px;
+}
+
+.divider-2 span {
+	background-color: #333; 
+	position: relative; 
+	top: -0.5em;
+	text-transform: uppercase;
+	color: #ccc;
+	padding: 5px 20px 5px 20px;
+	font-size: 24px;
+	font-family: 'Myriad-Pro', 'Myriad', helvetica, arial, sans-serif;
+    border-radius: 10px;
+}
+
+#footer {
+    width: 100%;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-top: 2px solid #333;
+    position: absolute;
+    bottom: 0;
+    text-align: right;
+    font-family: 'Open Sans', sans-serif;
+    color: #e5e5e5;
+    font-size: 14px;
+}
+
+#footer-float-left {
+    float: left;
+    -webkit-transition: .3s ease;
+    -moz-transition: .3s ease;
+    -o-transition: .3s ease;
+    -ms-transition: .3s ease;
+    transition: .3s ease;
+}
+
+#footer-float-right {
+    float: right;
+    -webkit-transition: .3s ease;
+    -moz-transition: .3s ease;
+    -o-transition: .3s ease;
+    -ms-transition: .3s ease;
+    transition: .3s ease;
+}
+
+#footer-float-right:hover, #footer-float-left:hover {
+    color: #fff;
+}
+
+
