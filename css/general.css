@@ -9,6 +9,7 @@
 
 body, html {
     height: 100%;
+    background-color: #222;
 }
 
 a {
@@ -23,6 +24,10 @@ buton {
     cursor:pointer;
     overflow: hidden;
     outline:none;
+}
+
+:focus {
+    outline: 0; <!-- Take away border around forms oncklick -->
 }
 
 /* ---------------Global--------------- */
@@ -218,11 +223,11 @@ li#about-icon {
 }
 
 li#portfolio-icon {
-    background-image: url(https://cdn3.iconfinder.com/data/icons/linecons-free-vector-icons-pack/32/news-24.png);
+    background-image: url(https://cdn3.iconfinder.com/data/icons/linecons-free-vector-icons-pack/32/news-32.png);
 }
 
 li#services-icon {
-    background-image: url(https://cdn3.iconfinder.com/data/icons/linecons-free-vector-icons-pack/32/display-24.png);
+    background-image: url(https://cdn3.iconfinder.com/data/icons/linecons-free-vector-icons-pack/32/display-32.png);
 }
 
 li#contact-icon {
@@ -230,10 +235,16 @@ li#contact-icon {
     border-bottom: 1px solid #333;
 }
 
+li#team-icon {
+    background-image: url(https://cdn3.iconfinder.com/data/icons/linecons-free-vector-icons-pack/32/user-32.png);
+    border-bottom: 1px solid #333;
+}
+
 li#blog-icon {
     background-image: url(https://cdn3.iconfinder.com/data/icons/linecons-free-vector-icons-pack/32/news-24.png);
     border-bottom: 1px solid #333;
 }
+
 
 li#about-icon:hover{
     color: #D34836;
