@@ -74,7 +74,7 @@
     }
     
     .pp-box {
-        width: 50%;
+        width:;
     }
     
     /* Contact */
@@ -172,14 +172,27 @@
     
     
     #our-team-container {
-        display: none; 
+        display: inline-block;
+        float: left;
     }
 
     .pp-box {
-        width: 100%;
+        width:250px ;
         height: 400px;
+        display: inline-block;
+        float: left;
     }
     
+    #pp-container {
+        margin: 0 auto;
+
+    }
+
+    .profile-circle {
+    height: 250px;
+
+}
+
     #profile-circle-fredrik {
         background-image: url(../images/fredrik.jpg);
         background-repeat: no-repeat;

@@ -378,13 +378,13 @@ a#fb-link:hover {
     min-height: 500px;
     overflow: hidden;
     padding-left: 200px;
-    color: #fff;   
+    color: #fff;
 }
 
-
 #pp-container {
-    float: left;
+    text-align: center;
     width: 100%;
+    display: inline-block;
 }
 
 .pp-box {
