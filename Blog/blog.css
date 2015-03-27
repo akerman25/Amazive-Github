@@ -1,0 +1,270 @@
+/* ---------------Resets--------------- */
+
+* {
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* ---------------General--------------- */
+
+body {
+    background-color: #e5e5e5;
+}
+
+.wrap {
+    position: relative;
+    margin: 0 auto;
+    width: 960px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    color:#333;
+    font-weight:300;
+    line-height:1.618em;
+    font-family:LatoRegular, Verdana, sans-serif;
+    margin:0;
+}
+
+p {
+    color:#696969;
+    font-weight:100;
+    line-height:1.618em;
+    font-family:LatoRegular, Verdana, sans-serif;
+    margin:0;
+}
+
+
+/* ---------------HEADER--------------- */
+
+#header {
+    width: 100%;
+    position: fixed;
+    background-color: #222;
+    z-index: 100;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #ccc;
+}
+
+#header-write-article {
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+#header-go-back {
+    position: absolute; 
+    top: 10px;
+    left: 10px;
+    border-radius: 5px;
+    background-color: #333;
+    padding: 5px 10px 5px 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+#header-go-back:hover {
+    background-color: #0088cc;
+}
+
+/* ---------------Article--------------- */
+
+.article-container {
+    width: 100%;
+    float: left;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    position: relative;
+    padding-bottom: 70px; /* Kompensera för artile footern */
+    margin-top: 80px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.article-image {
+    width: 100%;
+    float: left;
+    background-color: #333;
+    overflow: hidden;
+}
+
+.article-content {
+    width: 100%;
+    padding: 20px;
+    float: left;
+}
+
+.article-footer {
+    width: 100%;
+    padding: 10px 20px 10px 20px;;
+    border-top: 1px solid #ccc;
+    position: absolute;
+    bottom: 0; left: 0;
+}
+
+/* ---------------WRITE ARTICLE CONTAINER--------------- */
+
+#write-article-container {
+    height: 70%;
+    width: 80%;
+    margin: auto;
+    position: fixed;
+    top: 0; left: 0; bottom: 0; right: 0;
+    background-color: #fff;
+    z-index: 999;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+#article-header-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    width: 100%;
+    border-bottom: 2px solid #ccc;
+    z-index: 100;
+    background-color: #333;
+}
+
+#write-article-cross {
+    float: right;
+    margin-top: 7px;
+    width: 24px;
+    height: 24px;
+    background-image: url(https://cdn4.iconfinder.com/data/icons/integral/128/cross-24.png);
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+#write-article-background-layer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(51,51,51,0.8);
+    z-index: 998;
+}
+
+#write-container {
+    float: left;
+    width: 50%;
+    height: 100%;
+    padding: 75px 20px 70px 20px;
+    position: absolute;
+    background-color: #fff;
+    z-index: 99;
+    
+}
+
+.textareaStyle {
+    float: left;
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    max-height: 100%;
+    padding: 20px;
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    position: relative;
+    border-radius: 5px;
+}
+
+#article-settings-container {
+    float: right;
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    right: 0;
+    padding: 75px 20px 70px 0px;
+    background-color: #fff;
+    z-index: 99;
+
+}
+
+.inputStyle-tag {
+    width: 100%;
+    float: left;
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+    font-size: 16px;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+}
+
+.inputStyle-header {
+    width: 100%;
+    float: left;
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+}
+
+.inputStyle-author {
+    width: 200px;
+    float: left;
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.inputStyle-file {
+    float: left;
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+    font-size: 16px;
+    padding: 10px;
+}
+
+
+
+
+#article-footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-top: 2px solid #ccc;
+    width: 100%;
+    padding: 10px;
+    z-index: 100;
+    background-color: #333;
+}
+
+#articleSubmit {
+    padding: 20px;
+    padding-top: 5px; padding-bottom: 5px;
+    background-color: #0088cc;
+    float: right;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    color:#fff;
+    font-weight:300;
+    line-height:1.618em;
+    font-family:LatoRegular, Verdana, sans-serif;
+    text-transform: uppercase;
+    border: 0;
+    box-shadow: 0;
+    font-size: 15px;
+}
+
+
+
