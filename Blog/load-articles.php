@@ -32,7 +32,7 @@ echo'
 
 <div class="article-container">
             <div class="article-image">
-                <img src="http://static.feber.se/article_images/38/18/16/381816_1280.jpg">
+                <img src="http://static.feber.se/article_images/38/18/16/381816_1280.jpg" style="width: 100%;">
             </div>
             <div class="article-content">
                 <h2 style="text-transform: uppercase;">'.$row['magazine_header'].'</h2>';
