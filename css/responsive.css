@@ -170,17 +170,14 @@
     
     /* Our team */
     
-    
-    #our-team-container {
-        display: inline-block;
-        float: left;
-    }
+
 
     .pp-box {
         width:250px ;
         height: 400px;
         display: inline-block;
-        float: left;
+        float: none;
+        margin-bottom: 0px;
     }
     
     #pp-container {
