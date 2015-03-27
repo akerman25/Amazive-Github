@@ -50,7 +50,7 @@
   top: 0; left: 0; bottom: 0; right: 0; height: 150px;">
         <h1>YOUR E-MAIL IS SENT</h1>
         <p style="margin-top: 10px;">We will reply within the speed of light.</p>
-        <a href="http://www.amazive.com" target="_blank"><div style="margin-top: 20px; width: 300px;"class="portfolio-buttom">Return to amazive</div></a>
+        <a href="http://www.amazive.com"><div style="margin-top: 20px; width: 300px;"class="portfolio-buttom">Return to amazive</div></a>
     </div>    
     
     
