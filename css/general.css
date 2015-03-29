@@ -254,26 +254,9 @@ li#blog-icon {
 }
 
 
-li#about-icon:hover{
+.leftMenu li:hover {
     color: #D34836;
 }
-
-li#portfolio-icon:hover {
-    color: #D34836;
-}
-
-li#services-icon:hover {
-    color: #D34836;
-}
-
-li#contact-icon:hover {
-    color: #D34836;
-}
-
-li#blog-icon:hover {
-    color: #D34836;
-}
-
 
 
 #copyright-info {
