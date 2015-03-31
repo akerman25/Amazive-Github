@@ -25,7 +25,7 @@
     height: 100%;
 }
 
-#introduction-content {
+#introduction-content {  
     margin: auto;
     height: 400px;
     position: absolute;
@@ -464,6 +464,16 @@ a#fb-link:hover {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center bottom;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0; left: 0;
+}
+
+#profile-circle-rikard {
+    background-image: url(../images/rikard.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 100%;
     width: 100%;
     position: absolute;
