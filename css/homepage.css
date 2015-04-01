@@ -145,10 +145,6 @@ tr {
           transition: all 1s ease;
 }
 
-#portfolio-container-BellmanSundin:hover {
-    width: 110%;
-    height: 110%;
-}
 
 #portfolio-container-wextr {
     background-image: url("../images/playfull.gif");
@@ -166,10 +162,6 @@ tr {
           transition: all 1s ease;
 }
 
-#portfolio-container-wextr:hover {
-    height: 100%;
-    width: 100%;
-}
 
 #portfolio-container-kmx-care {
     background-image: url("../images/kmx-care.jpg");
@@ -187,10 +179,6 @@ tr {
           transition: all 1s ease;
 }
 
-#portfolio-container-kmx-care:hover {
-    height: 110%;
-    width: 110%;
-}
 
 #portfolio-container-amazive-magazines {
     background-image: url(../images/Final%20Killergame%20Large.png);
@@ -367,20 +355,18 @@ a#fb-link:hover {
 }
 
 
-#about-visit-blog {
+#about-visit-twitter {
     width: 49%;
     float: left;
     margin-top: 20px;
     padding: 100px 0px 120px 0px; 
     text-align: center;
-    background-image: url(https://download.unsplash.com/photo-1421757295538-9c80958e75b0);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: #55ACEE;
     position: relative;
 }
 
-#about-visit-blog:hover {
-    background-color: #CC4634;
+#about-visit-twitter:hover {
+    background-color: #4993CC;
 }
 
 #about-facebook {
